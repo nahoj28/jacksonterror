@@ -1,284 +1,261 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<meta charset="UTF-8" />
- 	<title>Cortometraje</title>
- 	<script>
- 	</script>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+ 	<title>TERROR´S</title>
+
  	<style>
- 		*{
- 			padding: 0;
- 			margin: 0;
- 			font-family: monospace;
- 		}
- 		ul.menu {
- 			list-style: none;
- 			background-image: url("./img/65f5ed144598337.628f1d94c33de.png");
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		height: 90px;
- 		
- 		background-size: cover;
- 		opacity:1;
- 		}
- 		ul li {
- 			display: inline-block;
-			position: relative;
-			width: 150px;
- 		}
- 		ul li a {
- 			display: block;
- 			padding: 20px 25px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- 		}
- 		ul li ul.dropdown li {
- 			display: block;
- 		}
- 		ul li ul.dropdown{
- 			width: 140%;
- 			background: #22438C;
- 			position: absolute;
- 			z-index: 999;
- 			display: none;
- 		}
- 		ul li ul a:hover {
- 			background: #112C66;
- 		}
- 		ul li:hover ul.dropdown {
- 			display: block;
- 		}
- 		body {
- 			position: relative;
- 			width: 100%
- 			height:100vh;
- 			background: url("./img/wickerman-9-movie-movie-characters-horror-forest-hd-wallpaper-preview.jpg");
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		height: 1800px;
- 		background-attachment: fixed;
- 		background-size: cover;
- 		opacity:
- 		}
- 		ul {
-  list-style-type: none;
-}
 
-li {
-  float: left;
-  text-align: center;
-  width: 5em;
-}
- p{
- 	margin: 15px
+ 		header{
  	
- }
+   border: black 0px solid;
+  position: relative;
+  left:30px;
 
- h1 {
- 	margin: 15px
- }
+  border: black 0px solid;
+  position: relative;
+  top: 240px;
+ 		}
+ 		.titulo{
+ 			 border: black 0px solid;
+  position: relative;
+  left:500px;
 
- h3 {
- 	margin: 15px
- }
-.hola{
-	width:700px;
-	height:400px;
-	
+  border: black 0px solid;
+  position: relative;
+  top: 100px;
+  font-family: 'Creepster', cursive;
+  font-family: 'Raleway', sans-serif;
+ 		}
+ 		.parrafo{
+ 				 border: black 0px solid;
+  position: relative;
+  left:-20px;
+
+  border: black 0px solid;
+  position: relative;
+  
+ 		}
+ 		.elaboracion{
+ 			 font-family: 'Creepster', cursive;
+  font-family: 'Raleway', sans-serif;
+ 		}
+ 		body{
+ 			background-image:linear-gradient(rgba(5, 7, 12, 0.50),rgba(5, 7, 12, 0.50)),url("./img/1920x1080-Dont-Breathe-2016-Horror-Movie-❤-4K-HD-Desktop-Wallpaper-para-4K-1024x576.jpg");
+ 			
+ 			background-repeat: no-repeat;
+
+    background-position: center center; 
+   
+    background-attachment: fixed;
+    background-size: cover;
+    		}
+    		.g{
+    			 list-style: none;
+      background-image: url("./img/e7cb46959b55a91ff0c9706c1a46e481.jpg");
+      background-repeat: no-repeat;
+    background-position: center center; 
+    height: 50px;
+    
+    background-size: cover;
+    display: block;
+      padding: 20px 250px;
+      color: #fff;
+      text-decoration:none;
+      text-align: center;
+      font-size: 20px;
+        font-family: 'Changa', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Handjet', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-size: 30px; 
+    		}
+    		.terry{
+   width:700px;
+  height:400px;  
+  list-style: none;
+      background-repeat: no-repeat;
+    background-position: center center; 
+     border: black 5px solid;
+  position: relative;
+  left:270px;
+    		}
+    		.nihao{
+    			 width:600px;
+  height:400px;
+  list-style: none;
+      background-repeat: no-repeat;
+    background-position: center center; 
+ border: black 0px solid;
+  position: relative;
+  left:270px;
+    		}
+    		.pagination{
+    			border: black 0px solid;
+    			position: relative;
+    			left: 500px; 
+    		}
+    		.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
 }
- li{
- 	margin: 15px
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.audio{
+   border: black 0px solid;
+  position: relative;
+  left:800px;
+
+  border: black 0px solid;
+  position: relative;
+  top: -350px;
+}
+ .textodelaudio{
+   border: black 0px solid;
+  position: relative;
+  left:800px;
+
+  border: black 0px solid;
+  position: relative;
+  top: -620px;
+
  }
- .nihao{
- 	width:600px;
-	height:400px;
-	list-style: none;
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		
- 		
- 		background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- }
- .terry{
- 	width:700px;
-	height:400px;  
-	list-style: none;
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		
- 		
- 		background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- }
- .g{
- 	list-style: none;
- 			background-image: url("./img/e7cb46959b55a91ff0c9706c1a46e481.jpg");
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		height: 20px;
- 		
- 		background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- }
- .bien{
- 	background-size: cover;
- 		display: block;
- 			padding: 20px 22px;
- 			color: #fff;
- 			text-decoration:none;
- 			font-size: 20px;
- 			margin-left: 1px 
- }
- .vide{
- 	width:700px;
-	height:400px;  
-	list-style: none;
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		
- 		
- 		background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- }
- .es{
- 	width:700px;
-	height:400px;  
-	list-style: none;
- 			background-repeat: no-repeat;
- 		background-position: center center; 
- 		
- 		
- 		background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- }
- .mov{
- 	background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 20px;
- }
- .primero{
- 	background-size: cover;
- 		display: block;
- 			padding: 20px 250px;
- 			color: #fff;
- 			text-decoration:none;
- 			text-align: center;
- 			font-size: 30px;
+ .breadcrumb{
+    border: black 0px solid;
+  position: relative;
+  left:1px;
+
+  border: black 0px solid;
+  position: relative;
+  top: 200px;
  }
 
  	</style>
  </head>
  <body>
- 	<header>
- <ul class="menu">
- 	<li>
- 		 <a href="#">Inicio:</a>
- 	</li>
- 	<li>
- 		<a href="#">colegio</a>
- 		<ul class="dropdown">
- 			<li><a href="http://www.ieprimitivoleal-sabaneta-antioquia.edu.co/">Primitivo Leal La Doctora</a></li>
- 		</ul>
-	</li>
+ <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TERROR´S</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+        	
+          <a class="nav-link active" href="http://localhost/ONDAS/index.php">Inicio
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a target="_blank" class="nav-link" href="http://www.ieprimitivoleal-sabaneta-antioquia.edu.co/">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ondas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="dropdown-menu">Más</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="search" placeholder="Busca aquí">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Raleway:wght@200&display=swap" rel="stylesheet">
+<h1 class="titulo">TERROR´S</h1>
+<header>
+<h2>Comienzó</h2>
+ <p class="parrafo">Telaraña: alex, un gran escritor estadounidense, intenta revivir su inspiración en un lugar a las afueras de texas  y que mejor <br>que una cabaña habandonada, sin saber que en ella habita un mal que lo estara atormentando por haber invadido su privacidad.</p>
+<h1 class="elaboracion">Elaboración</h1>
 
- 	<li>
- 		<a href="#">genero</a>
- 		<ul class="dropdown">
- 			<li><a href="https://altapeli.com/cine/diferencias-entre-terror-y-suspenso/">terror y suspenso</a></li>
-
- 		</ul>
-	</li>
-
-<li>
-	<a href="#">Integrantes</a>
- 		<ul class="dropdown">
- 			<li><a href="#">
- 				
- 				<ol> 
-				1.Jackson
-
-				2.Dayana
-
-				3.Ederwin
-
-				4.Santiago
-
-				5. Duban 
-
-				6.isaid
- 				</ol>
- 			</a>
-</li> 		 			
-</ul>
-
-</header>
-<section class="body">
-	<h1 class="primero" style="color: white;">Cortometraje De 10/1</h1>
-	<h1 style="color: white;">El Terror</h1>
-	<img src="./img/descarga (2).jpg">
-	<p style="color: white;">Terror es el sentimiento de miedo o fobia en su expresión máxima. Si el miedo se define como esquema de supervivencia, se puede asumir que el terror sobreviene cuando el miedo ha superado los controles del cerebro y ya no puede pensarse racionalmente.
-
-En casos graves puede llegar a inducir una parálisis completa del cuerpo, sudoración fría e incluso la muerte por paro cardíaco.
-
-Se llama también terror a los géneros literario, cinematográfico o historietístico que tienen como objetivo provocar sensación de miedo extremo en el lector o el espectador.</p>
-
-<h1 style="color: white;">Subgenero</h1>
-<h3 style="color: white;">Suspenso</h3>
-<p style="color: white;"> suspenso, suspense o thriller  «estremecer» o «emocionar») es un recurso literario y un amplio género de literatura, cine, televisión y videojuegos, que incluye numerosos y frecuentemente solapados subgéneros, cuyo objetivo principal es mantener al lector a la expectativa, generalmente en un estado de tensión, de lo que pueda ocurrirles a los personajes y, por lo tanto, atento al desarrollo del conflicto o nudo de la narración.</p>
-
-<h1 style="color: white;">Elaboracion</h1>
 <ol style="color: white;"><p class="g">1.DEFINIMOS UNA IDEA.</p>
-	<img class="terry" src="./img/como-escribir-un-guion-de-cine-655x368.jpg"> 
-	<p class="g">2.REUNIMOS LA UTILERIA QUE PUDIERAMOS UTILIZAR.</p>
-	<img class="terry" src="./img/200361789-001.jpg">
- 	<p class="g">3.NECESITAMOS UN EQUIPO DE GRABACION.</p>
- 	<img class="nihao" src="./img/Equipotécnico004.jpeg">
-	<p class="g">4.POST-PRODUCCION.</p>
-	<img class="terry" src="./img/ExtractImage.jpg">
-	</ol>
+  <img class="terry" src="./img/WhatsApp Image 2023-09-08 at 10.48.06 AM.jpeg"> 
+  <p class="g">2.REUNIMOS LA UTILERIA.</p>
+  <img class="terry" src="./img/mesa de trabajo_.jpg">
+  <p class="g">3.NECESITAMOS UN EQUIPO DE GRABACION.</p>
+  <img class="nihao" src="./img/2ecbbc851c0df2c0a370fa8f4294cc04.jpg">
+  <p class="g">4.DETRAS DE CAMARAS.</p>
+  <img class="terry" src="./img/WhatsApp Image 2023-08-24 at 5.38.07 PM.jpeg">
+  </ol>
 
-	<p class="bien" style="color: white;">Puedes ver el cortometraje completo en:<a href="">telaraña</a>
+  <p class="bien" style="color: white;">Puedes ver el cortometraje completo en:<a href="">telaraña</a>
 
- <h1 class="mov" style="color: white;">--CORTOMETRAJE--</h1>
+ <h1 class="mov" style="color: white;">--CORTOMETRAJE
+ ahun en proceso--</h1>
 
-<video class="vide" controls src="./video/VIVO - Trailer en Español Latino l Netflix.mp4" width="640" height="480"></video>
+<video class="vide" controls src="" width="640" height="480"></video>
 
 <address class="es" style="color: white;">
- 		escrito por Jackson Florez <br>
- 		Escríbeme en: <br>
- 		<a>jacksonFlorezp@gmail.com</a><br>
-</section>
+    escrito por Jackson Florez <br>
+    Escríbeme en: <br>
+    <a>jacksonFlorezp@gmail.com</a><br>
+    <ol class="breadcrumb">
+  <li class="breadcrumb-item active">Inicio</li>
+</ol>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+  <li class="breadcrumb-item active">Library</li>
+</ol>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+  <li class="breadcrumb-item"><a href="#">Library</a></li>
+  <li class="breadcrumb-item active">Data</li>
+</ol>
+<div>
+
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#">&laquo;</a>
+    </li>
+    <li class="page-item active">
+      <a class="page-link" href="http://localhost/ONDAS/index.php">1</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="http://localhost/ONDAS/segunda/index.php">2</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">3</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">4</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">5</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="#">&raquo;</a>
+    </li>
+  </ul>
+</div>
+
+<audio class="audio" controls src="./musica/y2mate.com - Musica Ambiental Terror  Suspenso  Miedo  SIN COPIRIGHT  Libre de Derechos  Instrumental.mp3" autoplay="autoplay" loop="loop"></audio>
+
+<div class="spinner"></div>
+<h1 class="textodelaudio">Audio Ambiente</h1>
  </body>
+</header>
  </html>
